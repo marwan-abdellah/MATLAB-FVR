@@ -3,7 +3,7 @@ close all;
 clc;
 
 % Loading the volume data from the RAW file 
-dataPath = '/Software/mFVR/CTData/CTData';
+dataPath = "../CTData/CTData';
 [volumeData, NX, NY, NZ] = LoadDataSet(dataPath); 
 
 % Convert the data to a 3D distribution and free the volumeData
