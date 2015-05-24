@@ -36,7 +36,6 @@ for ii = 1:1:volWidth
     end 
 end
 
-
 volumeData_3D = fftshift(volumeData_3D);
 
 % Compute the 3D Spectrum 
